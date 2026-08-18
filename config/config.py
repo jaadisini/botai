@@ -43,14 +43,14 @@ MAX_BOT = int(os.environ.get("MAX_BOT", 1000))
 API_HASH = os.environ.get("API_HASH", "c28a1377ab0444e6ff89685734f42c12")
 
 BOT_TOKEN = os.environ.get(
-    "BOT_TOKEN", "8798980417:AAEbnJj3IM3vJdOaltqhLdvtOfsuetysTF8"
+    "BOT_TOKEN", "8615408270:AAHiGN6Wf9DHpv2I5WQN0AujmuQurWn22pw"
 )
 
 BOT_ID = int(BOT_TOKEN.split(":")[0])
 
 API_GEMINI = os.environ.get("API_GEMINI", "AIzaSyAMSxIG6-WV_mOGm6BL9TtFpW7GOMVmz3g")
 
-API_MAELYN = os.environ.get("API_MAELYN", "sk_ms_2e9541fd10b7f6f7a7e6c5ac24aa4d407c4ea02fa1a58854")
+API_MAELYN = os.environ.get("API_MAELYN", "sk_ms_9df378ff50cea3288ab1b4296f331fc6d8ae7403bed3ed6c")
 
 API_BOTCAHX = os.environ.get("API_BOTCAHX", "awas_ada_maling")
 
@@ -65,7 +65,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "1289196629",
+            "1226169879",
         ).split(),
     )
 )
@@ -74,20 +74,20 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "1289196629",
+            "1226169879",
         ).split(),
     )
 )
 
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "1289196629").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "1226169879").split())
 )
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 1289196629))
+OWNER_ID = int(os.environ.get("OWNER_ID", 1226169879))
 
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003598735256))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002729458912))
 
-LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1003598735256))
+LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1002729458912))
 
 SPOTIFY_CLIENT_ID = os.environ.get(
     "SPOTIFY_CLIENT_ID", "e09ff7a19b204b62b6048a73bd605fe6"
@@ -95,12 +95,12 @@ SPOTIFY_CLIENT_ID = os.environ.get(
 SPOTIFY_CLIENT_SECRET = os.environ.get(
     "SPOTIFY_CLIENT_SECRET", "ab5f18169cf640e497f44f77abf5d7e0"
 )
-FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "1289196629").split()))
-SAWERIA_EMAIL = os.environ.get("SAWERIA_EMAIL", "awabsauqi12@gmail.com")
+FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "1226169879").split()))
+SAWERIA_EMAIL = os.environ.get("SAWERIA_EMAIL", "rezaandik145@gmail.com")
 SAWERIA_USERID = os.environ.get(
-    "SAWERIA_USERID", "aa57af08-62d1-4bbd-b082-96880455af76"
+    "SAWERIA_USERID", "0584c653-69a1-4de5-8459-813c32108747"
 )
-SAWERIA_USERNAME = os.environ.get("SAWERIA_USERNAME", "sexon12")
+SAWERIA_USERNAME = os.environ.get("SAWERIA_USERNAME", "rezaandik")
 sexon12 = list(
     map(
         int,
