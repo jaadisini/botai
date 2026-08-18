@@ -41,7 +41,7 @@ geopy
 cloudscraper25
 git+https://github.com/jaadisini/taigram.git
 git+https://github.com/google-gemini/generative-ai-python.git@main
-git+hhydrogram
+hydrogram
 git+https://github.com/yt-dlp/yt-dlp@master
 
 
