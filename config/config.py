@@ -101,11 +101,11 @@ SAWERIA_USERID = os.environ.get(
     "SAWERIA_USERID", "0584c653-69a1-4de5-8459-813c32108747"
 )
 SAWERIA_USERNAME = os.environ.get("SAWERIA_USERNAME", "rezaandik")
-sexon12 = list(
+KYNAN = list(
     map(
         int,
         os.environ.get(
-            "sexon12",
+            "KYNAN",
             "1289196629",
         ).split(),
     )
